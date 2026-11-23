@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#171426">
+<meta name="description" content="Sessenta cartas, músicas e motivos para amar você.">
+<title>O Arquivo dos Encantamentos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+<div class="ambient" aria-hidden="true"></div>
+<audio id="backgroundMusic" src="musicas/Hedwigs_Theme.mp3" preload="auto" loop></audio>
+<div id="musicPrompt" class="music-prompt" hidden>
+  <div class="music-prompt-card">
+    <span>♫</span>
+    <p>Uma música especial espera por você.</p>
+    <button id="startMusic" class="gold-button">Começar nossa história ✦</button>
+  </div>
+</div>
+<header class="topbar"><a class="brand" href="#inicio">✦ HOGWARTS ✦</a><span>ARQUIVO PARTICULAR • CORREIO CORUJA</span><button id="soundToggle" class="tiny-btn" aria-label="Ativar efeitos sonoros">♫</button></header>
+<main id="inicio">
+<section class="page cover active" data-page="0">
+<div class="cover-frame">
+<p class="overline">MINISTÉRIO DA MAGIA • CORRESPONDÊNCIA ESPECIAL</p>
+<div class="crest"><span>H</span><i>✦</i></div>
+<h1>O arquivo dos<br><em>encantamentos</em></h1>
+<p class="subtitle">Sessenta pequenos capítulos sobre você.</p>
+<div class="wax">H</div>
+<p class="cover-copy">Algumas coisas não cabem em uma única carta. Por isso, preparei uma coleção inteira: uma música, um motivo e um pedacinho do meu coração em cada dia.</p>
+<div class="recipient">DESTINATÁRIA: <strong>MINHA PESSOA FAVORITA</strong></div>
+<button class="gold-button" data-next="1">Deslacrar a carta <span>✧</span></button>
+<p class="tiny-note">UMA NOVA DESCOBERTA A CADA DIA, A PARTIR DE 03.12.2026</p>
+</div>
+</section>
+<section class="page" data-page="1">
+<div class="chapter"><span class="chapter-no">I</span><div><small>PRIMEIRO REGISTRO</small><h2>Antes de abrir os envelopes</h2></div></div>
+<div class="parchment">
+<p class="salutation">Minha querida,</p>
+<p>Se esta carta chegou até você, é porque existe uma pequena missão esperando. Durante sessenta dias, uma nova lembrança vai aparecer. Não é preciso conhecer feitiços ou pronunciar palavras difíceis: basta voltar aqui e abrir o envelope do dia.</p>
+<p>Cada carta guarda uma música e uma razão, entre tantas, pelas quais meu coração escolhe você. Algumas são sobre seu jeito, outras sobre o que sinto, e outras sobre tudo aquilo que ainda quero viver ao seu lado.</p>
+<p>Os dias que já passaram continuarão abertos. Você poderá voltar a eles sempre que quiser, como quem revisita uma memória favorita.</p>
+<p class="signature">Com todo o meu carinho,<br><strong>alguém completamente encantada por você</strong> ♡</p>
+</div>
+<div class="page-nav"><button class="ghost-button" data-prev="0">← Voltar</button><button class="gold-button" data-next="2">Continuar <span>→</span></button></div>
+</section>
+<section class="page" data-page="2">
+<div class="chapter"><span class="chapter-no">II</span><div><small>MAPA DO CASTELO</small><h2>Um passeio pela nossa magia</h2></div></div>
+<p class="lead">Cada cantinho desta carta guarda uma surpresa. Explore os pequenos detalhes antes de seguir para os envelopes.</p>
+<div class="feature-grid">
+<button class="feature" data-modal="torre"><span>♜</span><strong>A torre de astronomia</strong><small>Uma promessa sob as estrelas</small></button>
+<button class="feature" data-modal="sala"><span>♧</span><strong>Sala comunal</strong><small>Um lugar para descansar</small></button>
+<button class="feature" data-modal="pocao"><span>⚗</span><strong>Poção do carinho</strong><small>Uma receita nada secreta</small></button>
+<button class="feature" data-modal="patrono"><span>✧</span><strong>Feitiço do Patrono</strong><small>Uma lembrança feliz</small></button>
+</div>
+<div class="page-nav"><button class="ghost-button" data-prev="1">← Voltar</button><button class="gold-button" data-next="3">Próxima página →</button></div>
+</section>
+<section class="page" data-page="3">
+<div class="chapter"><span class="chapter-no">III</span><div><small>O QUE A MAGIA NÃO EXPLICA</small><h2>Pequenas coisas que amo em você</h2></div></div>
+<div class="parchment">
+<p>Eu poderia tentar resumir tudo em uma frase bonita, mas seria injusto com a quantidade de detalhes que fazem você ser você.</p>
+<ul class="love-list"><li>O jeito como você transforma momentos simples em histórias.</li><li>As coisas que fazem seus olhos brilharem quando você fala delas.</li><li>As suas manias, seus planos e até suas pequenas contradições.</li><li>A pessoa que você é quando ninguém está pedindo que seja perfeita.</li><li>A possibilidade de aprender sempre mais sobre o seu mundo.</li></ul>
+<p>Não quero que estas cartas pareçam uma lista de exigências ou promessas impossíveis. Quero que sejam um lembrete: gosto de você na vida real, nos dias incríveis e nos dias normais.</p>
+</div>
+<div class="page-nav"><button class="ghost-button" data-prev="2">← Voltar</button><button class="gold-button" data-next="4">Continuar →</button></div>
+</section>
+<section class="page" data-page="4">
+<div class="chapter"><span class="chapter-no">IV</span><div><small>UM PEQUENO JURAMENTO</small><h2>Promessas que quero cuidar</h2></div></div>
+<div class="parchment oath">
+<p>Não prometo que todos os dias serão fáceis. Prometo tentar fazer com que o carinho esteja presente também quando a rotina pesar.</p>
+<div class="promise"><span>✦</span> Escutar você com atenção, inclusive quando as palavras forem difíceis.</div>
+<div class="promise"><span>✦</span> Respeitar seu tempo, seus limites e tudo aquilo que faz você ser você.</div>
+<div class="promise"><span>✦</span> Celebrar suas conquistas sem diminuir seus esforços.</div>
+<div class="promise"><span>✦</span> Continuar escolhendo a honestidade, a gentileza e o cuidado.</div>
+<p class="signature">Que esse seja o nosso tipo favorito de magia. ♡</p>
+</div>
+<div class="page-nav"><button class="ghost-button" data-prev="3">← Voltar</button><button class="gold-button" data-next="5">Continuar →</button></div>
+</section>
+<section class="page" data-page="5">
+<div class="chapter"><span class="chapter-no">V</span><div><small>OBJETOS ENCANTADOS</small><h2>Uma pequena coleção de nós</h2></div></div>
+<p class="lead">Toque nos objetos para revelar mensagens escondidas.</p>
+<div class="relics">
+<button class="relic" data-relic="Uma estrela para lembrar que, mesmo de longe, sempre existe um jeito de desejar que seu dia brilhe."><span>✧</span><small>ESTRELA</small></button>
+<button class="relic" data-relic="Um livro para todos os capítulos que ainda não conhecemos — e para os que vamos reler sorrindo."><span>▤</span><small>LIVRO</small></button>
+<button class="relic" data-relic="Uma chave para abrir espaço para conversas sinceras, confiança e novas possibilidades."><span>⚿</span><small>CHAVE</small></button>
+<button class="relic" data-relic="Uma poção feita de paciência, risadas, cuidado e uma quantidade exagerada de carinho."><span>⚗</span><small>POÇÃO</small></button>
+</div>
+<div id="relicMessage" class="relic-message" aria-live="polite">Escolha um objeto encantado.</div>
+<div class="page-nav"><button class="ghost-button" data-prev="4">← Voltar</button><button class="gold-button" data-next="6">Quase lá →</button></div>
+</section>
+<section class="page" data-page="6">
+<div class="chapter"><span class="chapter-no">VI</span><div><small>ÚLTIMA PÁGINA ANTES DO CALENDÁRIO</small><h2>Uma última coisa...</h2></div></div>
+<div class="parchment final-note">
+<div class="big-star">✧</div>
+<p>Talvez sessenta cartas ainda não sejam suficientes para dizer tudo. Talvez nenhuma quantidade de páginas consiga explicar completamente o quanto você é importante para mim.</p>
+<p>Mas posso tentar, um dia de cada vez. E quando você sentir saudade, pode voltar a qualquer envelope já aberto. Nenhuma lembrança será trancada novamente.</p>
+<p>Agora, sua próxima missão está no calendário. A primeira data é 3 de dezembro. As outras serão reveladas com o passar dos dias.</p>
+<p class="signature">Até a próxima página da nossa história. ♡</p>
+</div>
+<div class="page-nav"><button class="ghost-button" data-prev="5">← Voltar</button><button class="gold-button" data-next="7">Encontrar o calendário ✦</button></div>
+</section>
+<section class="page calendar-page" data-page="7">
+<div class="chapter"><span class="chapter-no">VII</span><div><small>CALENDÁRIO DE DESCOBERTAS</small><h2>Seus 60 envelopes</h2></div></div>
+<p class="lead">Um novo envelope será liberado a cada dia, começando em 3 de dezembro de 2026. Os que você abrir ficam guardados aqui.</p>
+<div class="calendar-legend"><span>✦ Já aberto</span><span>◇ Disponível</span><span>🔒 Ainda não</span></div>
+<div id="calendar" class="calendar"></div>
+<div class="progress"><div id="progressBar"></div></div><p id="progressText" class="progress-text"></p>
+<div class="page-nav"><button class="ghost-button" data-prev="6">← Voltar à carta</button><button class="ghost-button" id="todayButton">Ver a próxima surpresa</button></div>
+</section>
+<section class="page letter-page" data-page="8">
+<button class="ghost-button back-calendar" id="backCalendar">← Voltar ao calendário</button>
+<article class="letter-paper">
+<div class="letter-heading">HOGWARTS • CORRESPONDÊNCIA PARTICULAR</div>
+<div class="letter-number" id="letterNumber"></div>
+<div class="letter-star">✧</div>
+<p class="letter-date" id="letterDate"></p>
+<h2 id="letterTitle"></h2>
+<p class="letter-reason" id="letterReason"></p>
+<div class="music-card"><span class="music-symbol">♫</span><div><small>A MÚSICA DE HOJE</small><strong id="songTitle"></strong><span id="songArtist"></span></div><a id="songLink" target="_blank" rel="noopener">Ouvir no Spotify ↗</a></div>
+<p class="letter-sign">Com carinho, sempre. ♡</p>
+</article>
+<div class="page-nav"><button class="ghost-button" id="previousLetter">← Carta anterior</button><button class="gold-button" id="nextLetter">Próxima carta →</button></div>
+</section>
+</main>
+<div id="modal" class="modal" hidden role="dialog" aria-modal="true"><div class="modal-card"><button id="closeModal" class="close-modal" aria-label="Fechar">×</button><div class="modal-star">✧</div><p id="modalText"></p></div></div>
+<footer>FEITO COM AMOR • UM DIA DE CADA VEZ <span>✦</span></footer>
+</body></html>

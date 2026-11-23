@@ -1,0 +1,36 @@
+CARTA DE HOGWARTS — 60 ENVELOPES
+
+ARQUIVOS
+- index.html: estrutura das 8 páginas e carta individual.
+- style.css: identidade visual, responsividade e animações.
+- script.js: dados das 60 cartas, datas, navegação, calendário e interações.
+
+DATAS
+- A primeira carta libera em 03/12/2026.
+- Uma nova carta libera por dia.
+- A carta 60 libera em 31/01/2027.
+- Cartas já abertas continuam acessíveis.
+
+IMPORTANTE SOBRE O HISTÓRICO
+O navegador salva as cartas abertas usando localStorage. Isso persiste no mesmo navegador e dispositivo, mesmo após fechar a página. Se a pessoa trocar de aparelho ou navegador, o histórico não é sincronizado. A liberação usa a data local do dispositivo.
+
+MÚSICAS
+Cada carta abre uma busca da música no Spotify. As 25 faixas fornecidas são distribuídas em sequência ao longo das 60 cartas; cada carta tem um motivo e um título próprios.
+
+PUBLICAR NO GITHUB PAGES
+1. Extraia o ZIP.
+2. Envie index.html, style.css e script.js para a raiz do repositório.
+3. No GitHub, abra Settings > Pages.
+4. Selecione Deploy from a branch, branch main e pasta /(root).
+5. Salve e aguarde a publicação.
+
+PERSONALIZAÇÃO
+As 60 mensagens e músicas ficam no início de script.js, dentro de LETTERS. A data inicial fica em CONFIG.firstDate.
+
+
+MÚSICA DE FUNDO
+- O arquivo musica/Hedwigs_Theme.mp3 está incluído na pasta "musicas".
+- O site tenta iniciar a música automaticamente quando é aberto.
+- Alguns navegadores bloqueiam reprodução automática com som. Nesse caso, aparece uma tela com o botão "Começar nossa história".
+- O botão ♫ no topo permite pausar ou retomar a música.
+- A música continua tocando enquanto a pessoa navega pelas páginas do site.
